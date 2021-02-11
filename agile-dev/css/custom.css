@@ -1,5 +1,7 @@
 
 
+=======
+
 .container{
 
     min-width: 20%;
@@ -8,25 +10,7 @@
 
 /** barre de navigation**/
 
-.menu{
 
-    display: flex;
-    background-color: black;
-    justify-content: space-between;
-}
-
-.menu img {
-
-    margin: 2px;
-    margin-left: 10px;
-}
-
-
-.btn, .btn-large, .btn-small {
-
-    background-color: white;
-    color: black;
-}
 
 /**header**/
 
@@ -80,7 +64,28 @@ header .col{
 }
 
 
-/**boutons**/
+
+/** barre de navigation**/
+
+.menu{
+
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.menu img {
+
+    margin: 2px;
+    margin-left: 10px;
+}
+
+
+.btn, .btn-large, .btn-small {
+
+    background-color: white;
+    color: black;
+}
 
 .button-l{     
     width: 150px;     
@@ -113,13 +118,18 @@ header .col{
 }
 
  
-/**footer**/
+
+footer .input-field{
+
+    padding-left: 20px;
+}
 
 footer {
 
     background-color: black;
     color: white;
     margin: 0;
+    width: 100%;
 }
 
 footer .icon{
@@ -134,17 +144,59 @@ footer .text{
 
 footer .svg-inline--fa{
     padding: 5px;
+
+
+
+.btn, .btn-large, .btn-small {
+
+    background-color: white;
+    color: black;
 }
 
-footer .input-field{
+/** SECTION 1 HEADER **/
 
-    padding-left: 20px;
+header .container{
+
+width: 100%;
+margin: 0;
+background-color: salmon;
 }
 
-/* NAV BAR */
+header .img-iphone{
+
+    width: 25vw;
+    height: 90%;
+}
+
+header .col{
+
+    text-align: center;
+    padding: 20px;
+}
+.row{
+    margin-bottom: 0;
+}
+.row .col .s6 {
+    height: 100%;
+    padding: 30px;
+}
+.hero-header-text{
+    display: flex;
+}
+.hero-header-text .col.s6{
+
+    margin: auto;
+}
+
+/** BUTTONS **/
+
+.button-l{     
+    width: 150px;     
+    height: auto;     
+    text-align: left; }
 
 
-/* SECTION 1 */
+/** SECTION 2  **/
 
 .container{
     text-align: center;
@@ -213,4 +265,3 @@ footer .input-field{
 
 @media (min-width : 768px){
 
-}
