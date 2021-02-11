@@ -1,38 +1,21 @@
 
-/** SECTION4 */
-.S4{
-    width:300px ;
-    height:300px ;
-    margin-top: 10px;
-}
-.col.s6.contact p{
-    margin-right: 10px;
-}
 
+.container{
+
+    min-width: 20%;
+    max-width: 100%;
+}
 
 /** barre de navigation**/
 
-.menu{
 
-    display: flex;
-    background-color: black;
-    justify-content: space-between;
-}
-
-img {
-
-    margin: 2px;
-    margin-left: 10px;
-}
-
-
-.btn, .btn-large, .btn-small {
-
-    background-color: white;
-    color: black;
-}
 
 /**header**/
+
+header .container {
+
+    min-width: 100%;
+}
 
 header .container{
 
@@ -67,7 +50,40 @@ header .col{
     margin: auto;
 }
 
-/**boutons**/
+
+/** SECTION4 */
+.S4{
+    width:300px ;
+    height:300px ;
+    margin-top: 10px;
+}
+.col.s6.contact p{
+    margin-right: 10px;
+}
+
+
+
+/** barre de navigation**/
+
+.menu{
+
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.menu img {
+
+    margin: 2px;
+    margin-left: 10px;
+}
+
+
+.btn, .btn-large, .btn-small {
+
+    background-color: white;
+    color: black;
+}
 
 .button-l{     
     width: 150px;     
@@ -75,8 +91,36 @@ header .col{
     text-align: left; }
 
 
+/**section 5**/
+
+.reviews .container{
+    width: 100%;
+    background-color: salmon;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.container .reviews{
+    width: 100%;
+}
+
+.reviews .container h3{
+
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.reviews .row{
+    display: flex;
+}
+
  
-/**footer**/
+
+footer .input-field{
+
+    padding-left: 20px;
+}
 
 footer {
 
@@ -100,13 +144,60 @@ footer .svg-inline--fa{
     padding: 5px;
 }
 
-/* NAV BAR */
 
 
-/* SECTION 1 */
+.btn, .btn-large, .btn-small {
+
+    background-color: white;
+    color: black;
+}
+
+/** SECTION 1 HEADER **/
+
+header .container{
+
+width: 100%;
+margin: 0;
+background-color: salmon;
+}
+
+header .img-iphone{
+
+    width: 25vw;
+    height: 90%;
+}
+
+header .col{
+
+    text-align: center;
+    padding: 20px;
+}
+.row{
+    margin-bottom: 0;
+}
+.row .col .s6 {
+    height: 100%;
+    padding: 30px;
+}
+.hero-header-text{
+    display: flex;
+}
+.hero-header-text .col.s6{
+
+    margin: auto;
+}
+
+/** BUTTONS **/
+
+.button-l{     
+    width: 150px;     
+    height: auto;     
+    text-align: left; }
+
+
+/** SECTION 2  **/
 
 .container{
-    width: 100%;
     text-align: center;
     font-family: 'Bree Serif', serif;
     margin-bottom: 0;
@@ -163,6 +254,13 @@ footer .svg-inline--fa{
 
 
 
-
-
 /* FOOTER */
+.form-footer{
+    display: flex;
+    align-items: center;
+    
+}
+
+@media (min-width : 768px){
+
+}
