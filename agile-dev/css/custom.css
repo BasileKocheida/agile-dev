@@ -1,7 +1,5 @@
 
 
-=======
-
 .container{
 
     min-width: 20%;
@@ -144,6 +142,7 @@ footer .text{
 
 footer .svg-inline--fa{
     padding: 5px;
+}
 
 
 
@@ -265,3 +264,4 @@ header .col{
 
 @media (min-width : 768px){
 
+}
