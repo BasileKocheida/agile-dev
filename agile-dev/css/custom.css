@@ -1,15 +1,4 @@
-/** SECTION 2 */
-.container{
-    margin-top: 5vw;
-}
-img{
-    height: 500px; ;
-}
 
-h2{
-    color: salmon;
-    margin-top: 10px;
-}
 /** SECTION4 */
 .S4{
     width:300px ;
@@ -19,3 +8,162 @@ h2{
 .col.s6.contact p{
     margin-right: 1àpx;
 }
+
+
+/** barre de navigation**/
+
+.menu{
+
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+img {
+
+    margin: 2px;
+    margin-left: 10px;
+}
+
+
+.btn, .btn-large, .btn-small {
+
+    background-color: white;
+    color: black;
+}
+
+/**header**/
+
+header .container{
+
+width: 100%;
+margin: 0;
+background-color: salmon;
+}
+
+header .img-iphone{
+
+    width: 25vw;
+    height: 90%;
+}
+
+header .col{
+
+    text-align: center;
+    padding: 20px;
+}
+.row{
+    margin-bottom: 0;
+}
+.row .col .s6 {
+    height: 100%;
+    padding: 30px;
+}
+.hero-header-text{
+    display: flex;
+}
+.hero-header-text .col.s6{
+
+    margin: auto;
+}
+
+/**boutons**/
+
+.button-l{     
+    width: 150px;     
+    height: auto;     
+    text-align: left; }
+
+
+ 
+/**footer**/
+
+footer {
+
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: 100%;
+}
+
+footer .icon{
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+}
+footer .text{
+    display: flex;
+    justify-content: center;
+}
+
+footer .svg-inline--fa{
+    padding: 5px;
+}
+
+/* NAV BAR */
+
+
+/* SECTION 1 */
+
+.container{
+    width: 100%;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 0;
+}
+.about{
+    margin-bottom: 0;
+} 
+
+
+.text1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+    
+
+.logo-tel img {
+    margin-top: 10px;
+    width: 28vw;
+    height: 23vw;
+}
+
+/* SECTION 2 */
+
+#features .container{
+    background-color: salmon;
+    width: 100%;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.features img{
+    margin-top: 10px;
+    width: 18vw;
+    height: 34vw;
+
+}
+
+.text2 {
+    margin-top: 9%;
+    text-align: end;
+}
+
+.text3 {
+    margin-top: 5%;
+    text-align: start;
+    padding-left: 4%;
+}
+
+/* SECTION 3 */
+
+
+
+
+/* SECTION 4 */
+
+
+
+
+
+/* FOOTER */
